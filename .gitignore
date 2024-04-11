@@ -1,7 +1,7 @@
 # Directorios a excluir
-!html-css-js/Free_Code_Camp/
-!html-css-js/jon_mircha/html_y_css/
-!html-css-js/jon_mircha/javascript/
+!html-css-Js/Free_Code_Camp/
+!html-css-Js/jon_mircha/html_y_css/
+!html-css-Js/jon_mircha/javascript/
 
 # Ignorar todos los directorios
 *
