@@ -1,5 +1,5 @@
 # Ignorar todos los directorios
-*/
+*
 
 # Directorios a excluir
 !html-css-js/Free_Code_Camp/
