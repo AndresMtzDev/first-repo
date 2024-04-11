@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>PiedraPapeltijera</title>
+        <script>
+            //piedra es 1, papel es 2, tijera es 3
+            function aleatorio(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) + min)
+            }
+            
+            let jugador = 0
+            let pc = aleatorio(1, 3)
+            jugador = prompt("elige: 1 papel, 2 piedra, 3 tijera")
+            
+            if(jugador == 1){
+                alert("Elegisste piedra")
+            }
+            else if(jugador == 2){
+                alert("Elegiste papel")
+            }
+            else if(jugador == 3){
+                alert("Elegiste tijera")
+            }
+            else{
+                alert("game over")
+            }
+//inicia pc
+            if(pc == 1){
+                alert("Pc eligio piedra")
+            }
+            else if(pc == 2){
+                alert("Pc eligio papel")
+            }
+            else if(pc == 3){
+                alert("Pc eligio tijera")
+            }
+//combate
+            if(jugador == pc){
+                alert("EMPATE")
+            }
+            else if((jugador == 1 && pc == 3) || (jugador == 2 && pc == 1) || (jugador == 3 && pc == 2)){
+                alert("GANASTE")
+            }
+            else{
+                alert("PERDISTE")
+            }
+
+        </script>
+
+    </head>
+    <body>
+        <h1>Piedra-Papel-Tijera</h1>
+    </body>
+</html>

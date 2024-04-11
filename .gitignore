@@ -1,7 +1,8 @@
-# Ignorar todos los directorios
-*
-
-# Directorios a excluir
-!html-css-Js/Free_Code_Camp/
-!html-css-Js/jon_mircha/html_y_css/
-!html-css-Js/jon_mircha/javascript/
+CS50_harvard/
+html-css-Js/master/
+html-css-Js/.vscode/
+html-css-Js/jon_mircha/youtube-html-css-main
+html-css-Js/jon_mircha/youtube-js-main
+Libros/
+Ruby/
+.docx
